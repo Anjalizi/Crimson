@@ -46,7 +46,7 @@ int v = a+b; #Raises an error since a and b belong to different data types
 
 #Looping
 #For loops
-for(int i=0; i<5; i++){
+for(int i=0; i<5; i=i+1){
 print(i)
 }
 
