@@ -1,3 +1,8 @@
+'''
+Always when passing paramenters with functions
+check hint
+http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html
+'''
 #Functions
 
 #1. Function without parameters
@@ -7,12 +12,24 @@ def example():
 def example2():
     a = 2
     print(a*2)
+'''
+For the above code, call the function ie complete code for one would be
+def example():
+	print(5)
+example()
+'''
+
 
 #2. Function with parameters
 def example3(n1, n2):
     answer = n1+n2
     print(answer)
-
+'''
+pass the paramenters n1, n2
+at the base include
+example3(n1=10, n2=10)
+n1=10,n2=10 can be any integer you prefer to use
+'''
 def example4(n1, n2, n3):
     n1=n2
     n2=n3;
@@ -20,12 +37,18 @@ def example4(n1, n2, n3):
     print("First number = ", n1)
     print("Second number = ", n2)
     print("Third number = ", n3)
-
+'''
+pass this like above example
+example4(n1=2 ,n2 =10,n3=5)
+'''
 def example5(n1, n2):
     print(n1)
     print(n2)
     return n1+n2
-
+'''
+include
+example5(n1=2, n2=4)
+'''
 x = example5(5,8)
 print(x)
 
