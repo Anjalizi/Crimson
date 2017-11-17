@@ -1,3 +1,8 @@
+#General Comments
+'''
+using questions and answers here would be aawesome
+'''
+
 #Text Input and Output
 
 #Numbers
@@ -13,6 +18,11 @@ print("Welcome to my first program " + name)
 
 print("Welcome again," , name)
 
+'''
+The syntax here seem not okay.
+replace if(n==1) with if n==1:
+keenly look at https://pythonprogramming.net/elif-else-python-3-tutorial/
+'''
 #Conditions
 n = int(input("Enter a number between 1 and 4:"))
 if(n==1){
@@ -31,6 +41,10 @@ else{
 print("Enter a valid number.")
 }
 
+'''
+we declare as a=10; instead of int a=10;
+check https://www.learnpython.org/en/Variables_and_Types
+'''
 #Variables
 int a = 10;
 long g = 100000;
@@ -44,6 +58,11 @@ print(d) #Prints 15
 
 int v = a+b; #Raises an error since a and b belong to different data types
 
+
+'''
+How about when we have it pythonic
+https://www.learnpython.org/en/Loops
+'''
 #Looping
 #For loops
 for(int i=0; i<5; i=i+1){
