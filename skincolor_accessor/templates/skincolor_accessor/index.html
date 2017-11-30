@@ -1,0 +1,14 @@
+{% if all_skintones %}
+      <ul>
+        <h3> Here are all my albums </h3>
+        {% for skntne in all_skintones %}
+        <li>
+          <a href="{% url 'skincolor_accessor:detail' skntne.id %}"> {{ skntne.s_tone }} </a>
+        </li>
+        {% endfor %}
+      </ul>
+
+{% else %}
+      <h3> You don't have any albums </h3>
+
+{% endif %}
